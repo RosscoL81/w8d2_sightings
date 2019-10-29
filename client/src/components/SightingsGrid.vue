@@ -11,6 +11,7 @@
 
 <script>
 import { eventBus } from '../main';
+import SightingService from '@/services/SightingService.js'
 export default {
 	name: "sightings-grid",
 	props: ["sightings"],
@@ -21,8 +22,14 @@ export default {
 	},
 	methods: {
 
+	},
+	mounted(){
+
+
+
 	}
 }
+
 </script>
 
 <style lang="css" scoped>
